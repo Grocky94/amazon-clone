@@ -17,15 +17,15 @@
     height: 79px;
     width: 150px;
     /* border: 1px solid black; */
-   background-color: #131921;
+    background-color: #131921;
 }
 
 #aws-log {
     height: 78px;
     width: 150px;
-    object-fit:cover;
+    object-fit: cover;
     /* border: 1px solid black; */
-   background-color: #131921;
+    background-color: #131921;
 
 }
 
@@ -106,7 +106,7 @@
     width: auto;
     /* border: 1px solid black; */
     display: flex;
-    
+
 }
 
 #Flag {
@@ -122,12 +122,14 @@
     /* border: 1px solid black; */
     padding: 10px;
     text-align: left;
-    
+
 }
-.EAOC-cat-mod >label{
+
+.EAOC-cat-mod>label {
     margin-top: 10px;
     color: white;
 }
+
 #EN {
     height: 50px;
     border: none;
@@ -135,7 +137,8 @@
     color: white;
     background-color: #131921;
 }
-#A-L{
+
+#A-L {
     height: 20px;
     border: none;
     font-size: medium;
@@ -143,24 +146,85 @@
     color: white;
     background-color: #131921;
 }
-#ret-or{
+
+#ret-or {
     margin-top: 10px;
     text-align: left;
     color: white;
 }
-.fa-cart-shopping{
+
+.fa-cart-shopping {
     color: white;
-    height:25px;
-    width:40px;
+    height: 25px;
+    width: 40px;
     padding-top: 25px;
     text-align: center;
     /* border:1px solid black; */
 }
-#cart{
+
+#cart {
     font-weight: bold;
     font-size: large;
-    height:20px;
+    height: 20px;
     width: 50px;
     /* border:1px solid black; */
     color: white;
 }
+#below-nav{
+    height:40px;
+    width:100%;
+    border:1px solid black;
+    display: flex;
+    background-color: #232f3e;
+}
+#LineBar{
+    height:40px;
+    width:60px;
+    margin-left: 25px;
+    border:1px solid black;
+    display: flex;
+}
+.fa-bars{
+    height:10px;
+    width:20px; 
+    padding: 12px 5px;  
+    margin-top: 5px; 
+    color: white;
+    /* border:1px solid black; */
+}
+
+#LineBar>span{
+    height:24px;
+    width:auto;
+    padding: 8px;
+    margin-left: -5px;
+}
+#dealsBar{
+    height:40px;
+    width:1000px;
+    border:1px solid black;
+    display: flex;
+}
+.LineBar-name{
+    height:24px;
+    width:auto;
+    padding: 8px;
+    border:1px solid black;
+    text-align: center;
+    
+}
+
+#onlyEleDeal{
+    height:40px;
+    width:350px;
+    border:1px solid black;
+}
+#inElDeal{
+    height:25px;
+    width:180px;
+    margin-top: 7px;
+    margin-left: 170px;
+    text-align: center;
+    border:1px solid black;
+}
+
