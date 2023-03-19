@@ -364,6 +364,7 @@
     border: 1px solid black;
     display: flex;
     justify-content: space-around;
+    background-color: white;
 
 }
 
@@ -375,6 +376,7 @@ body {
     height: 400px;
     width: 100%;
     border: 1px solid black;
+    background-color: white;
 }
 
 .rowTitle-div {
@@ -391,10 +393,17 @@ body {
     color: #48778e;
 }
 
-.divAlign-row {
+.before-divAlign-row {
     height: 300px;
     width: 95%;
     margin-left: 35px;
+    border: 1px solid black;
+    overflow: hidden;
+}
+.divAlign-row {
+    height: 300px;
+    width: 110%;
+    /* margin-left: 35px; */
     border: 1px solid black;
     display: flex;
     justify-content: space-between;
@@ -424,7 +433,6 @@ body {
     object-fit: cover;
     border: 1px solid black;
 }
-
 .eachItem-pic-other {
     width: 120px;
     margin-top: 15px;
@@ -432,10 +440,17 @@ body {
     object-fit: cover;
     border: 1px solid black;
 }
-.eachItem-pic-other1{
-     width: 170px;
-  margin-top: 5px;
+.eachItem-pic-other1 {
+    width: 170px;
+    margin-top: 5px;
     margin-left: 20px;
+    object-fit: cover;
+    border: 1px solid black;
+}
+.eachItem-pic-phone {
+    width: 80px;
+    margin-top: 10px;
+    margin-left: 50px;
     object-fit: cover;
     border: 1px solid black;
 }
@@ -446,14 +461,51 @@ body {
     border: 1px solid #cc0c39;
     background-color: #cc0c39;
 }
-
 .text-red {
     color: #cc0c39;
     margin-left: 5px;
-
 }
-
 .newRate {
     opacity: 0.6;
     margin-left: 2px;
+}
+.next-div {
+    height: 100px;
+    width: 50px;
+    border: 1px solid black;
+    position: absolute;
+    margin-left: 92%;
+    margin-top: 5%;
+    background-color: white;
+    opacity: 0;
+}
+.next-div:hover{
+    visibility: visible;
+    opacity: 1;
+}
+.greaterThan {
+    text-align: center;
+    font-size: x-large;
+    margin-top: 35px;
+}
+.show-pic-items{
+    height:352px;
+    width:100%;
+    border:1px solid black;
+    background-color: white;
+}
+
+.prev-div {
+    height: 100px;
+    width: 50px;
+    border: 1px solid black;
+    position: absolute;
+    margin-right: 92%;
+    margin-top: 5%;
+    background-color: white;
+    opacity: 0;
+}
+.prev-div:hover{
+    visibility: visible;
+    opacity: 1;
 }
