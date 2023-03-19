@@ -409,6 +409,15 @@ body {
     justify-content: space-between;
 }
 
+.divAlign-row-big {
+    height: 300px;
+    width: 130%;
+    /* margin-left: 35px; */
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+}
+
 .eachItem {
     height: 300px;
     width: 220px;
@@ -430,6 +439,13 @@ body {
 .eachItem-pic {
     width: 220px;
     margin-top: 20px;
+    object-fit: cover;
+    border: 1px solid black;
+}
+.eachItem-pic-moreBig {
+    height:280px;
+    width: 288px;
+    margin-top: 10px;
     object-fit: cover;
     border: 1px solid black;
 }
@@ -509,3 +525,7 @@ body {
     visibility: visible;
     opacity: 1;
 }
+.eachItem-big{
+    height: 300px;
+    width: 290px;
+    border: 1px solid black;}
