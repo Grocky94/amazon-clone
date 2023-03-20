@@ -574,3 +574,55 @@ body {
         margin-left: 25px;
         margin-top: 5px;
     }
+    .last-outline{
+        height:350px;
+        width:100%;
+        border:1px solid black;
+    }
+    .last-head-sec{
+        height:35px;
+        width:95%;
+        margin-left: 2%;
+        border:1px solid black;
+        display: flex;
+        justify-content: space-between;
+    }
+    .last-headtag, .last-pTag{
+        margin-top: 5px;
+    }
+    .forprevNext{
+        height:310px;
+        width:55px;
+        border:1px solid black;
+    }
+    .toMakenext{
+        height:20px;
+        width:20px;
+        padding: 10px;
+        margin-top: 130px;
+        margin-left: 5px;
+        border:1px solid black;
+        border-radius: 10px;
+        font-size: larger;
+        font-weight: bolder;
+        text-align: center;
+    }
+    .inner-aligner-div{
+        height:310px;
+        width: 100%;
+        border:1px solid black;
+        display: flex;
+    }
+    .div-to-arrrange-show-items{
+        height:310px;
+        width: 93%;
+        border: 1px solid black;
+    }
+    .show-item-inner{
+        height:310px;
+        width:100%;
+        border:1px solid black;
+        display: flex;
+        justify-content: ;
+    }
+   
