@@ -364,7 +364,6 @@
     border: 1px solid black;
     display: flex;
     justify-content: space-around;
-    background-color: white;
 
 }
 
@@ -470,6 +469,13 @@ body {
     object-fit: cover;
     border: 1px solid black;
 }
+.seprate-pic{
+    height:200px;
+    width:65px;
+   margin-left:40%;
+    object-fit: cover;
+    border:1px solid black;
+}
 .red-box {
     height: 40px;
     width: auto;
@@ -528,4 +534,43 @@ body {
 .eachItem-big{
     height: 300px;
     width: 290px;
-    border: 1px solid black;}
+    border: 1px solid black;
+}
+.large-divChain-other {
+    height: 500px;
+    width: 100%;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-around;}
+
+    .small-align-div{
+        border:1px solid black;
+        height:120px;
+        width:100%;
+        display:flex;
+        justify-content: space-around;
+    }
+    .small-show{
+        height:90px;
+        width:75px;
+        margin-top:15px ;
+        border-radius: 5px;
+        border: 1px solid grey;
+    }
+    .small-show:hover{
+        border: 1px solid red;
+    }
+    .small-show-pic{
+        width:25px;
+        object-fit:cover;
+        border: 1px solid black;
+        margin-left: 25px;
+        margin-top: 5px;
+    }
+    .small-show-pic-edit{
+        width: 20px;
+        object-fit:cover;
+        border: 1px solid black;
+        margin-left: 25px;
+        margin-top: 5px;
+    }
