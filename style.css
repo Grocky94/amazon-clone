@@ -12,7 +12,7 @@
     width: 250px;
     /* border: 1px solid black; */
     display: flex;
-    
+
 }
 
 #logo-div {
@@ -430,6 +430,7 @@ body {
     width: 220px;
     /* border: 1px solid black; */
 }
+
 .eachItem:hover {
     width: 230px;
 }
@@ -726,4 +727,142 @@ body {
 
 .sofa-pics:hover {
     width: 180px;
+}
+
+#signin-reminder {
+    height: 110px;
+    width: 100%;
+    border-top: 1px solid rgb(206, 204, 204);
+    border-bottom: 1px solid rgb(206, 204, 204);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+#sig-div {
+    height: 75px;
+    width: 300px;
+    /* border:1px solid black; */
+    text-align: center;
+}
+
+#sig-box {
+    height: 20px;
+    width: 280px;
+    padding-top: 5px;
+    border: 1px solid #ffb701;
+    border-radius: 5px;
+    margin: 5px 10px;
+    align-items: center;
+    color: black;
+    background-color: #ffcb46;
+}
+
+#sig-div>:nth-child(3)>a {
+    text-decoration: none;
+}
+
+#back {
+    height: 35px;
+    padding-top: 15px;
+    width: 100%;
+    border: 1px solid balck;
+    text-align: center;
+    background-color: #37475a;
+}
+
+#back>a {
+    text-decoration: none;
+    color: white;
+}
+
+#outter-con {
+    height: 510px;
+    width: 100%;
+    border: 1px solid black;
+    background-color: #232f3e;
+    color: white;
+}
+
+#align-con {
+    height: 280px;
+    width: 80%;
+    margin-left: 10%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.connect-us {
+    height: 280px;
+    width: auto;
+    /* border: 1px solid black; */
+
+}
+
+.connect-us>h3 {
+    margin-bottom: 5px;
+}
+
+.connect-us>li {
+    list-style-type: none;
+    margin-top: 5px;
+}
+
+#secondLast-align-con {
+    height: 220px;
+    width: 80%;
+    margin-left: 10%;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+#sym-lang {
+    height: 120px;
+    width: 420px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#sym-lang>img{
+    width: 150px;
+    /* background: black; */
+}
+#iconNselect{
+    height:40px;
+    width:120px;
+    border:1px solid #ffffff;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px;
+}
+#iconNselect>select{
+    height:15px;
+    border: none;
+    outline: none;
+    color: white;
+    background-color: #232f3e;
+}
+.fa-globe{
+    /* color: white; */
+}
+#country {
+    height: 60px;
+    width: 100%;
+    padding: 20px;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+}
+#country>a{
+    ma
 }
